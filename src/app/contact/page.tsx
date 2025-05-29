@@ -31,7 +31,7 @@ export default function Contact() {
       );
       setStatus('success');
       setFormData({ name: '', email: '', company: '', message: '' });
-    } catch (error) {
+    } catch {
       setStatus('error');
     }
   };
